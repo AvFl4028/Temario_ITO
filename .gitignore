@@ -1,0 +1,124 @@
+# Archivos de salida de compilación LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+#
+./vscode
+
+
+# Archivos de salida de BibTeX
+*.bbl
+*.blg
+
+# Archivos de salida de compilación de PDF
+*.pdf
+
+# Archivos temporales
+*.dvi
+*.ps
+*.lof
+*.lot
+*.lol
+
+# Archivos temporales y de respaldo
+*.bak
+*.backup
+*.tmp
+*.swp
+*~
+*.sav
+
+# Archivos específicos de editores
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.vim
+
+# Archivos de TeXShop
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.out
+
+# Archivos de compilación de latexmk
+*.fdb_latexmk
+*.fls
+
+# Archivos de Kile
+*.backup
+*.kate-swp
+*.swp
+*.tmp
+
+# Archivos de Overleaf
+output.tex
+
+# Directorios de compilación de arara
+arara.log
+
+# Archivos de proyectos IDE
+# Eclipse
+.project
+.buildpath
+
+# IntelliJ IDEA
+.idea/
+
+# Otros
+# Directorios de distribución (si usas git-lfs)
+dist/
+node_modules/
+
+# Archivos de salida de compilación de Asymptote
+*.asy
+*.eps
+
+# Archivos generados por makeindex
+*.ilg
+*.idx
+*.ind
+*.ist
+*.glg
+*.glo
+*.gls
+*.acr
+*.acn
+
+# Archivos generados por glossaries-extra
+*.glsdefs
+
+# Archivos de nomenclatura
+*.nlo
+*.nls
+
+# Archivos de metadatos de git-lfs
+.git/hooks/
+.git/refs/
+.git/objects/
+.git/branches/
+.git/info/
+.git/logs/
+.git/description
+
