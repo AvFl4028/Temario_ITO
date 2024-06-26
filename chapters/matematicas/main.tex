@@ -1,16 +1,124 @@
 \section{Matemáticas}
 
 \subsection{Productos Notables}
+
+Los productos notables son fórmulas algebraicas que permiten simplificar el proceso de multiplicación de ciertos polinomios. Aquí hay algunos ejemplos importantes:
+
 \subsubsection{Binomio de Newton}
+
+El Binomio de Newton se refiere a la expansión de una potencia de un binomio, expresado generalmente como $(a+b)^n$. La fórmula general del binomio de Newton es:
+
+\begin{center}
+    $\sum_{k=0}^n \binom{n}{k} a^{n - k} b^k$
+\end{center}
+
+Donde $\binom{n}{k}$ es el coeficiente binomial, calculado como:
+
+\begin{center}
+    $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
+\end{center}
+
+Ejemplo:
+
+Para expandir $(x + y)^3$:
+
+\begin{center}
+    $(x + y)^3 = \sum_{k=0}^3 \binom{3}{k}x^{3-k}y^k$\\
+    $\binom{3}{0}x^3 + \binom{3}{1}x^2y + \binom{3}{2}xy^2 + \binom{3}{3}y^3$\\
+    $= x^3 + 3x^2y + 3xy^2 + y^3$
+\end{center}
+
+
 \subsubsection{Simplificación de fracciones algebraicas}
+Para simplificar fracciones algebraicas, se deben factorizar el numerador y el denominador y luego cancelar los factores comunes.
+
+\textbf{Ejemplo:}
+
+Simplificar $\frac{6x^2-12x}{3x}$
+
+\begin{enumerate}
+    \item Factorizar: $\frac{6x^2-12x}{3x} = \frac{6x(x-2)}{3x}$
+    \item Simplificar la fracción: $\frac{6x(x-2)}{3x} = \frac{6x}{3x}(x-2) = 2(x-2)$
+\end{enumerate}
+
 \subsubsection{Operaciones con fracciones algebraicas}
 
+Las operaciones con fracciones algebraicas incluyen suma, resta, multiplicación y división. A continuación, se presentan ejemplos para cada operación.
+
+\textbf{Suma y resta}
+
+Para sumar o restar fracciones algebraicas, es necesario encontrar un denominador común.
+
+\textbf{Ejemplo:}
+
+Sumar $\frac{2}{x} + \frac{3}{x^2}$:
+
+\begin{enumerate}
+    \item Encontrar el denominador común: $x^2$
+    \item Reescribir las fracciones:
+          $\\
+              \frac{2}{x} = \frac{2x}{x^2}\\
+              \frac{3}{x^2} = \frac{3}{x^2}
+          $
+    \item Sumar las fracciones: $\frac{2x}{x^2} + \frac{3}{x^2} = \frac{2x+3}{x^2}$
+\end{enumerate}
+
+\textbf{Multiplicación y División}
+
+Multiplicar $\frac{2x}{3y} \cdot \frac{4y}{5x}$
+
+$\frac{2x4y}{5x3y} = \frac{8xy}{15xy} = \frac{8}{15}$
+
+Dividir $\frac{2x}{3y} \div \frac{4y}{5x}$
+
+$\frac{2x}{3y} \div \frac{4y}{5x} = \frac{2x}{3y} \cdot \frac{5x}{4y} = \frac{10x^2}{12y^2} = \frac{5x^2}{6y^2}$
+
 \subsection{Ecuaciones}
+
+Una ecuación es una igualdad matemática que contiene una o más variables. Resolver una ecuación implica encontrar el valor o los valores de las variables que hacen que la igualdad sea verdadera.
+
 \subsubsection{Ecuación, propiedades, clases}
+
+\textbf{Propiedades de las ecuaciones}
+
+Propiedad de la igualdad: Si $a=b$, entonces $a+c=b+c$ y $a-c=b-c$.
+
+Propiedad de la multiplicación: Si $a=b$, entonces $ac=bc$.
+
+Propiedad de la división: Si $a=b$ y $c \neq 0$, entonces $\frac{a}{c}=\frac{b}{c}$.
+
+Propiedad distributiva: $a(b+c)=ab+ac$.
+
+\textbf{Clases de ecuaciones}
+
+\begin{itemize}
+    \item Ecuaciones lineales: Ecuaciones en las que la variable tiene un exponente de 1.
+    \item Ecuaciones cuadráticas (de segundo grado): Ecuaciones en las que la variable tiene un exponente de 2.
+    \item Ecuaciones polinómicas: Ecuaciones que pueden tener variables con exponentes mayores que 2.
+    \item Ecuaciones racionales: Ecuaciones que contienen fracciones con polinomios en el numerador y el denominador.
+    \item Ecuaciones irracionales: Ecuaciones que contienen raíces de variables.
+\end{itemize}
+
+
 \subsubsection{Ecuaciones de primer grado}
+
+Las ecuaciones de primer grado, o ecuaciones lineales, tienen la forma general $ax+b=0$, donde $a$ y $b$ son constantes y $a\neq0$.
+
 \subsubsection{Ecuaciones de segundo grado}
 
+Las ecuaciones de segundo grado, o ecuaciones cuadráticas, tienen la forma general $ax2+bx+c=0$, donde $a$, $b$ y $c$ son constantes y $a\neq0$.
+
+Para resolver ecuaciones de segundo grado, se pueden usar varios métodos:
+\begin{itemize}
+    \item Factorización
+    \item Completando el cuadrado
+    \item Fórmula cuadrática
+\end{itemize}
+
 \subsection{Sistemas de ecuaciones}
+
+Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con las mismas variables. Resolver un sistema de ecuaciones significa encontrar los valores de las variables que satisfacen todas las ecuaciones simultáneamente.
+
 \subsubsection{Sistemas de dos ecuaciones lineales con dos incógnitas}
 \subsubsection{Sistemas de dos ecuaciones}
 
@@ -38,13 +146,3 @@
 \subsubsection{Interpretación geométrica}
 \subsubsection{Ecuación de la recta tangente y de la recta normal}
 \subsubsection{Cálculo de la velocidad y aceleración de un móvil usando derivadas}
-
-
-% https://www.youtube.com/watch?v=apPXOlZnRhg
-% https://chatgpt.com/share/7be82482-f39d-47b7-9df9-f0c453cfdabb
-% https://www.uaeh.edu.mx/docencia/P_Presentaciones/prepa3/2019/Coordenadas.pdf
-% https://es.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/a/midpoint-formula
-% https://es.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/a/slope-review
-% http://jfaustocmath.weebly.com/home/capitulo-iii-paralelismo-y-perpendicularidad#:~:text=Se%20dice%20que%20dos%20segmentos,si%20sus%20pendientes%20son%20iguales.&text=Tambi%C3%A9n%20se%20define%20como%20segmentos,de%20sus%20pendientes%20es%20%2D1.
-% https://www.geogebra.org/m/fdqxnj4f
-% https://www.uaeh.edu.mx/docencia/P_Presentaciones/prepa_ixtlahuaco/2017/geometria.pdf
